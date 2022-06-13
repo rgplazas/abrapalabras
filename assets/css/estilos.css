@@ -1,0 +1,216 @@
+html {
+    font-family: 'Roboto Slab', serif;
+}
+hr {border: 0; border-top: 2px solid #D8D7D7; height:0;}
+/*Inicio Modo Escritorio*/
+.tituloDestacadoPrincipal  {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.875em;
+    font-weight: bold;
+    color: #101010!important;
+}
+
+.copeteDestacadoPrincipal  {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 1.15em;
+    color: #101010!important;
+}
+
+.seccionDestacadoPrincipal  {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95em;
+    color: #9B9B9B !important;
+    font-weight: bold;
+}
+
+.subseccionDestacadoPrincipal  {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95em;
+    color: #9B9B9B !important;
+}
+
+.fechaHoraDestacadoPrincipal  {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95em;
+    color: #9B9B9B !important;
+}
+
+.tituloPrincipal  {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.80em;
+    font-weight: bold;
+    color: #101010!important;
+}
+
+.titulo  {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.50em;
+    font-weight: bold;
+    color: #101010!important;
+}
+
+.volanta  {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.85em;
+}
+
+.copete  {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 0.85em;
+}
+
+.textoNoticia  {
+    font-family: 'Playfair Display', serif;
+}
+
+.seccion  {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.7em;
+    color: #9B9B9B !important;
+    font-weight: bold;
+}
+
+.subseccion  {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.7em;
+    color: #9B9B9B !important;
+}
+
+.fechaHora  {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.7em;
+    color: #9B9B9B !important;
+}
+/*Fin Modo Escritorio*/
+
+/*Inicnio Modo Resolucion menor a 800px*/
+@media screen and (max-width: 800px) {
+
+}
+/*Fin Modo Resolucion menor a 800px*/
+
+/*Inicnio Smartphones*/
+@media screen and (max-device-width : 480px) {
+    .tituloDestacadoPrincipal  {
+        font-family: 'Roboto Slab', serif;
+        font-size: 0.875em;
+        font-weight: bold;
+        color: #101010!important;
+    }
+    
+    .copeteDestacadoPrincipal  {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 0.75em;
+        color: #101010!important;
+    }
+    
+    .seccionDestacadoPrincipal  {
+        font-family: 'Playfair Display', serif;
+        font-size: 0.6em;
+        color: #9B9B9B !important;
+        font-weight: bold;
+    }
+    
+    .subseccionDestacadoPrincipal  {
+        font-family: 'Playfair Display', serif;
+        font-size: 0.6em;
+        color: #9B9B9B !important;
+    }
+    
+    .fechaHoraDestacadoPrincipal  {
+        font-family: 'Playfair Display', serif;
+        font-size: 0.6em;
+        color: #9B9B9B !important;
+    }
+
+    .tituloPrincipal  {
+        font-family: 'Roboto Slab', serif;
+        font-size: 0.875em;
+        font-weight: bold;
+        color: #101010!important;
+    }
+    
+    .titulo  {
+        font-family: 'Roboto Slab', serif;
+        font-size: 0.875em;
+        font-weight: bold;
+        color: #101010!important;
+    }
+    
+    .volanta  {
+        font-family: 'Playfair Display', serif;
+        font-size: 0.75em;
+    }
+    
+    .copete  {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 0.75em;
+    }
+    
+    .textoNoticia  {
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .seccion  {
+        font-family: 'Playfair Display', serif;
+        font-size: 0.6em;
+        color: #9B9B9B !important;
+        font-weight: bold;
+    }
+    
+    .subseccion  {
+        font-family: 'Playfair Display', serif;
+        font-size: 0.6em;
+        color: #9B9B9B !important;
+    }
+    
+    .fechaHora  {
+        font-family: 'Playfair Display', serif;
+        font-size: 0.6em;
+        color: #9B9B9B !important;
+    }
+    /*Fin Modo Escritorio*/
+}
+/*Fin Smartphones*/
+
+/*Inicnio Ipad en posición vertical*/
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+
+}
+/*Fin Ipad en posición vertical*/
+
+/*Inicio Dando estilo a los enlaces */
+a:link {color: #101010!important;}
+a:visited {color: #101010!important;}
+a:active {color: #101010!important;}
+a:hover {color: #101010!important;}
+/*Fin Dando estilo a los enlaces*/
+
+.ck-content blockquote {
+    color: #009F98 !important;
+    font-size: 1.5em !important;
+    font-weight: bold !important;
+    overflow: hidden !important;
+    padding-right: 1.5em !important;
+    padding-left: 1.5em !important;
+    margin-left: 0 !important;
+    font-style: italic !important;
+    border-left: 5px solid #ccc !important;
+}
+
+blockquote {
+    color: #009F98 !important;
+    font-size: 1.5em !important;
+    font-weight: bold !important;
+    overflow: hidden !important;
+    padding-right: 1.5em !important;
+    padding-left: 1.5em !important;
+    margin-left: 0 !important;
+    font-style: italic !important;
+    border-left: 5px solid #ccc !important;
+}
+
